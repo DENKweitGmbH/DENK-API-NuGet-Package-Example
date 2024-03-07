@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{06CEA390-4458-4B46-8EF9-BCA9380B7C25}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{B67CA327-3718-4F90-AB5A-5F7D363C26B3}"
+	ProjectSection(SolutionItems) = preProject
+		model\crack.denk = model\crack.denk
+		model\Token.txt = model\Token.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{B0010AAC-082C-4A2B-966C-245B9793589B}"
+	ProjectSection(SolutionItems) = preProject
+		image\crack_example.png = image\crack_example.png
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DENKApi.NET.Sample.BasicWorkflowDML", "DENKApi.NET.Sample.BasicWorkflowDML\DENKApi.NET.Sample.BasicWorkflowDML.csproj", "{4E1A4D39-A334-4395-B9AA-9C3E12BA654B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DENKApi.NET.Sample.WindowsHelperCPU", "DENKApi.NET.Sample.WindowsHelperCPU\DENKApi.NET.Sample.WindowsHelperCPU.csproj", "{A473278C-D5E5-4CC7-9D1D-8473C6E852AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1A4D39-A334-4395-B9AA-9C3E12BA654B}.Debug|x64.ActiveCfg = Debug|x64
+		{4E1A4D39-A334-4395-B9AA-9C3E12BA654B}.Debug|x64.Build.0 = Debug|x64
+		{4E1A4D39-A334-4395-B9AA-9C3E12BA654B}.Release|x64.ActiveCfg = Release|x64
+		{4E1A4D39-A334-4395-B9AA-9C3E12BA654B}.Release|x64.Build.0 = Release|x64
+		{A473278C-D5E5-4CC7-9D1D-8473C6E852AC}.Debug|x64.ActiveCfg = Debug|x64
+		{A473278C-D5E5-4CC7-9D1D-8473C6E852AC}.Debug|x64.Build.0 = Debug|x64
+		{A473278C-D5E5-4CC7-9D1D-8473C6E852AC}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AE66439-3063-4B92-959E-FCA03EDBF80D}
+	EndGlobalSection
+EndGlobal
